@@ -28,9 +28,6 @@ jobs:
     - name: Navigate to project directory
       run: cd tahsin03/LabFinal/final
 
-
-
-
     - name: Install dependencies
       run: npm install
 
