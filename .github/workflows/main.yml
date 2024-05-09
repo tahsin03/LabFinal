@@ -20,13 +20,13 @@ jobs:
       with:
         ref: final
 
+    - name: Navigate to project directory
+      run: cd LabFinal/final
+
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14'
-
-    - name: Navigate to project directory
-      run: cd tahsin03/LabFinal/final
 
     - name: Install dependencies
       run: npm install
