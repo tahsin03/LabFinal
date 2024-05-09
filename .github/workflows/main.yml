@@ -26,7 +26,8 @@ jobs:
         node-version: '14'
 
     - name: Navigate to project directory
-      run: cd E:\8th Semester\Validation\Lab\Lab_03\Calculator
+      run: cd "E:\8th Semester\Validation\Lab\Lab_03\Calculator"
+
 
 
     - name: Install dependencies
