@@ -26,8 +26,7 @@ jobs:
         node-version: '14'
 
     - name: Navigate to project directory
-      run: cd /d "E:\8th Semester\Validation\Lab\Lab_03\Calculator"
-      shell: cmd
+      run: cd tahsin03/LabFinal/final
 
 
 
