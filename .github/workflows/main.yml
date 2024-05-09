@@ -1,6 +1,14 @@
 name: JavaScript Unit, Integration, and Regression Tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+      - final
+  pull_request:
+    branches:
+      - main
+      - final
 
 jobs:
   test:
@@ -9,6 +17,8 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        ref: final
 
     - name: Set up Node.js
       uses: actions/setup-node@v2
